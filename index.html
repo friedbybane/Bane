@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZAZA Lounge Köthen – Fine Food, Hookah &amp; Drinks</title>
+<meta name="description" content="ZAZA Lounge in Köthen (Anhalt): türkische Küche, Dry-Aged-Burger, Tacos, Shisha &amp; Drinks. Lieferung &amp; Abholung. Dr.-Krause-Straße 57, 06366 Köthen.">
+<meta name="theme-color" content="#0b0712">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b0712' stroke='%23d9ae4e' stroke-width='3'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-style='italic' fill='%23d9ae4e' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "ZAZA Lounge",
+  "telephone": "+49 170 6868210",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Dr.-Krause-Straße 57",
+    "postalCode": "06366",
+    "addressLocality": "Köthen (Anhalt)",
+    "addressCountry": "DE"
+  },
+  "servesCuisine": ["Türkisch", "Burger", "Tacos", "Café"],
+  "priceRange": "€€",
+  "sameAs": ["https://instagram.com/zaza.lounge.koethen"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "17:00", "closes": "23:59" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday"], "opens": "11:00", "closes": "14:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday"], "opens": "17:00", "closes": "23:59" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "14:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "17:00", "closes": "02:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "14:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "17:20", "closes": "23:59" }
+  ]
+}
+</script>
+<style>
+  :root{
+    color-scheme: dark;
+    --gold:#d9ae4e;
+    --gold-light:#f0cf8c;
+    --bg:#0b0712;
+    --bg-alt:#140c22;
+    --bg-alt-2:#1a1028;
+    --purple:#8b3fd6;
+    --purple-soft:#b487ea;
+    --cream:#f6efe4;
+    --cream-dim:#cbc0ae;
+    --card-bg:#150e21;
+    --border:rgba(217,174,78,.22);
+    --border-strong:rgba(217,174,78,.45);
+    --shadow:0 24px 48px -24px rgba(0,0,0,.7);
+    --radius-lg:20px;
+    --radius-md:14px;
+    --radius-sm:10px;
+    --font-display:'Fraunces',Georgia,serif;
+    --font-body:'Manrope',system-ui,-apple-system,sans-serif;
+    --header-h:76px;
+    --container:1180px;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--cream);
+    font-family:var(--font-body);
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 .5em;color:var(--cream)}
+  p{margin:0 0 1em}
+  ul{margin:0;padding:0;list-style:none}
+  button{font:inherit;color:inherit}
+
+  /* subtle background texture, not flat */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:0;
+    background:
+      radial-gradient(60% 45% at 15% 0%, rgba(139,63,214,.20), transparent 60%),
+      radial-gradient(50% 40% at 100% 15%, rgba(217,174,78,.10), transparent 60%),
+      radial-gradient(70% 50% at 50% 100%, rgba(139,63,214,.14), transparent 60%);
+  }
+  body::after{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:0;
+    opacity:.05;
+    mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .container{max-width:var(--container);margin-inline:auto;padding-inline:20px;position:relative;z-index:1}
+  section{position:relative;z-index:1;padding-block:clamp(56px,8vw,104px)}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--font-body);font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--purple-soft);margin-bottom:14px;
+  }
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--gold);display:inline-block}
+  .section-head{max-width:640px;margin-bottom:clamp(28px,4vw,48px)}
+  .section-head h2{font-size:clamp(1.8rem,3.6vw,2.6rem);font-style:italic}
+  .section-head p{color:var(--cream-dim)}
+  .center{text-align:center;margin-inline:auto}
+
+  /* skip link */
+  .skip-link{
+    position:absolute;left:12px;top:-60px;z-index:200;
+    background:var(--gold);color:var(--bg);padding:10px 16px;border-radius:8px;font-weight:700;
+    transition:top .2s ease;
+  }
+  .skip-link:focus{top:12px}
+
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+  /* ---------- Header ---------- */
+  header.site-header{
+    position:sticky;top:0;z-index:100;
+    height:var(--header-h);
+    display:flex;align-items:center;
+    background:rgba(11,7,18,.72);
+    backdrop-filter:blur(14px) saturate(140%);
+    -webkit-backdrop-filter:blur(14px) saturate(140%);
+    border-bottom:1px solid transparent;
+    transition:border-color .25s ease, background .25s ease;
+  }
+  header.site-header.is-scrolled{
+    border-bottom-color:var(--border);
+    background:rgba(11,7,18,.92);
+  }
+  .nav-row{display:flex;align-items:center;justify-content:space-between;width:100%;gap:16px}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
+  .brand-badge{
+    width:46px;height:46px;border-radius:50%;
+    background:radial-gradient(circle at 32% 28%, var(--bg-alt-2), var(--bg) 70%);
+    border:1.5px solid var(--gold);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-display);font-style:italic;font-weight:600;
+    color:var(--gold-light);font-size:1.1rem;
+    box-shadow:0 0 0 3px rgba(217,174,78,.12);
+    flex-shrink:0;
+  }
+  .brand-word{font-family:var(--font-display);font-style:italic;font-weight:600;font-size:1.2rem;color:var(--cream);letter-spacing:.02em}
+  .brand-word small{display:block;font-family:var(--font-body);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--purple-soft)}
+
+  nav.primary-nav{display:flex;align-items:center;gap:2px}
+  nav.primary-nav a{
+    padding:10px 12px;border-radius:999px;font-weight:600;font-size:.88rem;
+    text-decoration:none;color:var(--cream-dim);
+    transition:color .2s ease, background .2s ease;
+    white-space:nowrap;
+  }
+  nav.primary-nav a:hover{color:var(--cream);background:rgba(217,174,78,.08)}
+  .nav-mobile-cta{display:none}
+
+  .header-actions{display:flex;align-items:center;gap:10px}
+
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:12px 22px;border-radius:999px;font-weight:700;font-size:.92rem;
+    text-decoration:none;border:1.5px solid transparent;cursor:pointer;
+    min-height:44px;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease, border-color .18s ease, color .18s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{transform:translateY(-1px)}
+  .btn-gold{background:linear-gradient(135deg,var(--gold-light),var(--gold));color:#1b1206;box-shadow:0 10px 24px -10px rgba(217,174,78,.55)}
+  .btn-gold:hover{box-shadow:0 14px 30px -10px rgba(217,174,78,.7)}
+  .btn-outline{background:transparent;border-color:var(--border-strong);color:var(--cream)}
+  .btn-outline:hover{border-color:var(--gold);background:rgba(217,174,78,.08)}
+  .btn-purple{background:linear-gradient(135deg,var(--purple),#6c22b5);color:#fff;box-shadow:0 10px 24px -10px rgba(139,63,214,.6)}
+  .btn-sm{padding:9px 16px;font-size:.84rem;min-height:38px}
+  .btn svg{width:18px;height:18px;flex-shrink:0}
+
+  .menu-toggle{
+    display:none;
+    width:44px;height:44px;border-radius:10px;
+    background:transparent;border:1.5px solid var(--border-strong);
+    align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;
+  }
+  .menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{
+    content:"";display:block;width:20px;height:2px;background:var(--cream);
+    position:relative;transition:transform .2s ease, opacity .2s ease;
+  }
+  .menu-toggle span::before{position:absolute;top:-6px}
+  .menu-toggle span::after{position:absolute;top:6px}
+  .menu-toggle[aria-expanded="true"] span{background:transparent}
+  .menu-toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+
+  @media (max-width:1100px){
+    nav.primary-nav{
+      position:fixed;top:var(--header-h);right:0;bottom:0;left:0;
+      height:calc(100vh - var(--header-h));height:calc(100dvh - var(--header-h));
+      background:var(--bg);
+      flex-direction:column;align-items:stretch;gap:2px;
+      padding:18px 20px 28px;
+      z-index:99;
+      transform:translateY(-8px);opacity:0;visibility:hidden;
+      transition:opacity .2s ease, transform .2s ease, visibility .2s;
+      overflow-y:auto;
+    }
+    nav.primary-nav.is-open{transform:translateY(0);opacity:1;visibility:visible}
+    nav.primary-nav a{padding:16px 10px;font-size:1.05rem;border-bottom:1px solid var(--border)}
+    .nav-mobile-cta{display:inline-flex;margin-top:14px;border-bottom:none!important}
+    .header-actions .btn-outline-desktop{display:none}
+    .menu-toggle{display:flex}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    min-height:calc(100svh - var(--header-h));
+    display:flex;align-items:center;
+    padding-block:56px;
+    background:
+      radial-gradient(60% 60% at 80% 10%, rgba(139,63,214,.28), transparent 60%),
+      radial-gradient(50% 50% at 10% 90%, rgba(217,174,78,.14), transparent 60%),
+      var(--bg);
+  }
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+  @media (max-width:900px){.hero-grid{grid-template-columns:1fr;text-align:center}}
+
+  .hero-badge-wrap{display:flex;justify-content:center;margin-bottom:28px}
+  @media (min-width:901px){.hero-badge-wrap{justify-content:flex-start}}
+  .zaza-emblem{
+    width:120px;height:120px;border-radius:50%;
+    background:radial-gradient(circle at 34% 28%, var(--bg-alt-2), var(--bg) 72%);
+    border:2px solid var(--gold);
+    box-shadow:0 0 0 6px rgba(217,174,78,.08), 0 0 0 1px rgba(217,174,78,.3) inset, 0 20px 40px -14px rgba(139,63,214,.5);
+    display:flex;align-items:center;justify-content:center;
+    position:relative;
+  }
+  .zaza-emblem::before{
+    content:"";position:absolute;inset:8px;border-radius:50%;border:1px solid rgba(217,174,78,.35);
+  }
+  .zaza-emblem span{
+    font-family:var(--font-display);font-style:italic;font-weight:600;font-size:1.9rem;
+    color:var(--gold-light);letter-spacing:.02em;
+  }
+
+  .hero h1{
+    font-size:clamp(2.4rem,5.6vw,4.2rem);
+    font-style:italic;
+    line-height:1.05;
+    margin-bottom:.35em;
+  }
+  .hero h1 em{color:var(--gold-light);font-style:italic}
+  .hero-tagline{
+    font-family:var(--font-body);font-weight:700;letter-spacing:.06em;
+    color:var(--purple-soft);text-transform:uppercase;font-size:.95rem;margin-bottom:18px;
+  }
+  .hero-lede{color:var(--cream-dim);font-size:1.08rem;max-width:52ch;margin-bottom:28px}
+  @media (max-width:900px){.hero-lede{margin-inline:auto}}
+
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px}
+  @media (max-width:900px){.hero-ctas{justify-content:center}}
+
+  .status-pill{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:10px 18px;border-radius:999px;
+    background:var(--card-bg);border:1px solid var(--border);
+    font-size:.88rem;font-weight:600;color:var(--cream-dim);
+  }
+  .status-dot{width:9px;height:9px;border-radius:50%;background:#6a7280;flex-shrink:0}
+  .status-pill[data-open="true"] .status-dot{background:#3ecf74;box-shadow:0 0 0 4px rgba(62,207,116,.18)}
+  .status-pill[data-open="true"]{color:#bff3d4;border-color:rgba(62,207,116,.3)}
+  .status-pill[data-open="false"] .status-dot{background:#e2665c}
+  .status-pill[data-open="false"]{color:#f3c3bf;border-color:rgba(226,102,92,.28)}
+  @media (prefers-reduced-motion:no-preference){
+    .status-pill[data-open="true"] .status-dot{animation:pulse 2.2s ease-in-out infinite}
+  }
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+
+  .hero-visual{
+    aspect-ratio:4/5;border-radius:var(--radius-lg);
+    border:1px dashed var(--border-strong);
+    background:linear-gradient(160deg,var(--bg-alt),var(--bg-alt-2));
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+    color:var(--cream-dim);text-align:center;padding:32px;
+  }
+  .hero-visual svg{width:44px;height:44px;color:var(--gold);opacity:.8}
+  .hero-visual strong{color:var(--cream);font-family:var(--font-display);font-style:italic;font-weight:600;font-size:1.15rem}
+  .hero-visual span{font-size:.85rem;max-width:26ch}
+
+  /* ---------- Marquee strip ---------- */
+  .strip{
+    border-block:1px solid var(--border);
+    background:var(--bg-alt);
+    padding-block:16px;
+    overflow:hidden;
+  }
+  .strip-track{
+    display:flex;gap:48px;white-space:nowrap;
+    font-family:var(--font-display);font-style:italic;font-size:1.1rem;color:var(--purple-soft);
+    width:max-content;
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .strip-track{animation:scroll-strip 28s linear infinite}
+  }
+  @keyframes scroll-strip{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .strip-track span{opacity:.85}
+  .strip-track span::after{content:"·";margin-left:48px;color:var(--gold)}
+
+  /* ---------- About ---------- */
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media (max-width:800px){.about-grid{grid-template-columns:1fr}}
+  .placeholder-card{
+    border-radius:var(--radius-md);border:1px dashed var(--border-strong);
+    background:var(--card-bg);
+    min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+    color:var(--cream-dim);text-align:center;padding:24px;
+  }
+  .placeholder-card svg{width:34px;height:34px;color:var(--gold);opacity:.75}
+  .placeholder-card strong{color:var(--cream);font-weight:700;font-size:.95rem}
+  .placeholder-card span{font-size:.82rem}
+
+  .about-copy{max-width:640px}
+
+  /* ---------- Menu (tabs) ---------- */
+  .tabs{position:sticky;top:calc(var(--header-h) + 1px);z-index:20;background:var(--bg);padding-block:10px;margin-bottom:28px}
+  .tablist{
+    display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;
+    scrollbar-width:thin;
+  }
+  .tablist::-webkit-scrollbar{height:6px}
+  .tablist::-webkit-scrollbar-thumb{background:var(--border-strong);border-radius:999px}
+  .tab-btn{
+    flex-shrink:0;min-height:44px;padding:10px 20px;border-radius:999px;
+    background:var(--card-bg);border:1px solid var(--border);color:var(--cream-dim);
+    font-weight:700;font-size:.9rem;cursor:pointer;
+    transition:background .2s ease,color .2s ease,border-color .2s ease;
+  }
+  .tab-btn:hover{color:var(--cream);border-color:var(--border-strong)}
+  .tab-btn[aria-selected="true"]{
+    background:linear-gradient(135deg,var(--gold-light),var(--gold));
+    color:#1b1206;border-color:transparent;
+  }
+
+  .menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  @media (max-width:700px){.menu-grid{grid-template-columns:1fr}}
+
+  .menu-item{
+    display:flex;justify-content:space-between;gap:14px;
+    padding:18px 20px;border-radius:var(--radius-md);
+    background:var(--card-bg);border:1px solid var(--border);
+    box-shadow:var(--shadow);
+  }
+  .menu-item-body h4{font-family:var(--font-body);font-weight:700;font-size:1rem;margin-bottom:4px;color:var(--cream)}
+  .menu-item-body p{font-size:.86rem;color:var(--cream-dim);margin:0}
+  .menu-item-price{
+    font-family:var(--font-display);font-style:italic;font-weight:600;color:var(--gold-light);
+    font-size:1.05rem;white-space:nowrap;flex-shrink:0;
+  }
+  .menu-note{
+    margin-top:18px;padding:14px 18px;border-radius:var(--radius-sm);
+    background:rgba(139,63,214,.1);border:1px solid rgba(139,63,214,.3);
+    font-size:.88rem;color:var(--purple-soft);
+  }
+  .subheading{
+    font-family:var(--font-body);font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+    font-size:.78rem;color:var(--purple-soft);margin:28px 0 12px;
+  }
+  .subheading:first-child{margin-top:0}
+
+  /* ---------- Drinks & shisha ---------- */
+  .drinks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media (max-width:900px){.drinks-grid{grid-template-columns:1fr 1fr}}
+  @media (max-width:600px){.drinks-grid{grid-template-columns:1fr}}
+  .drink-card{
+    background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius-md);
+    padding:22px 22px 8px;box-shadow:var(--shadow);
+  }
+  .drink-card h3{font-size:1.15rem;font-style:italic;margin-bottom:14px}
+  .drink-list li{
+    display:flex;justify-content:space-between;gap:10px;
+    padding:9px 0;border-bottom:1px solid var(--border);
+    font-size:.9rem;color:var(--cream-dim);
+  }
+  .drink-list li:last-child{border-bottom:none}
+  .drink-list li span:last-child{color:var(--gold-light);font-weight:700;flex-shrink:0}
+
+  .shisha-panel{
+    margin-top:40px;padding:clamp(28px,4vw,44px);border-radius:var(--radius-lg);
+    background:linear-gradient(135deg,rgba(139,63,214,.18),rgba(217,174,78,.08));
+    border:1px solid var(--border-strong);
+    display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;
+  }
+  @media (max-width:800px){.shisha-panel{grid-template-columns:1fr}}
+  .shisha-panel h3{font-size:1.7rem;font-style:italic}
+  .shisha-tagline{color:var(--purple-soft);font-weight:700;font-size:.92rem;margin-bottom:10px}
+  .shisha-price{
+    display:inline-flex;align-items:baseline;gap:6px;margin-bottom:16px;
+    font-family:var(--font-display);font-style:italic;font-size:1.4rem;color:var(--gold-light);
+  }
+  .shisha-price small{font-family:var(--font-body);font-style:normal;font-size:.75rem;color:var(--cream-dim);font-weight:600}
+  .flavor-chips{display:flex;flex-wrap:wrap;gap:8px}
+  .flavor-chip{
+    padding:8px 14px;border-radius:999px;background:rgba(11,7,18,.4);
+    border:1px solid var(--border-strong);font-size:.84rem;color:var(--cream)
+  }
+
+  /* ---------- Student offer ---------- */
+  .student-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media (max-width:700px){.student-grid{grid-template-columns:1fr}}
+  .student-card{
+    padding:26px;border-radius:var(--radius-md);
+    background:var(--card-bg);border:1px solid var(--gold);
+    position:relative;overflow:hidden;
+  }
+  .student-card::before{
+    content:"Ausweis zeigen";position:absolute;top:14px;right:-32px;
+    background:var(--gold);color:#1b1206;font-size:.68rem;font-weight:800;
+    padding:4px 36px;transform:rotate(35deg);letter-spacing:.05em;text-transform:uppercase;
+  }
+  .student-card h4{font-size:1.15rem;margin-bottom:6px}
+  .student-price{font-family:var(--font-display);font-style:italic;color:var(--gold-light);font-size:1.3rem;margin-bottom:8px}
+  .student-card p{color:var(--cream-dim);font-size:.9rem;margin:0}
+
+  /* ---------- Delivery ---------- */
+  .delivery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media (max-width:800px){.delivery-grid{grid-template-columns:1fr}}
+  .feature-card{
+    padding:26px;border-radius:var(--radius-md);background:var(--card-bg);border:1px solid var(--border);
+  }
+  .feature-icon{
+    width:44px;height:44px;border-radius:50%;background:rgba(217,174,78,.12);
+    display:flex;align-items:center;justify-content:center;margin-bottom:14px;
+  }
+  .feature-icon svg{width:22px;height:22px;color:var(--gold)}
+  .feature-card h3{font-size:1.05rem;font-family:var(--font-body);font-weight:700;font-style:normal;margin-bottom:6px}
+  .feature-card p{color:var(--cream-dim);font-size:.9rem;margin:0}
+
+  /* ---------- Contact / hours / map ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+  @media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
+  .hours-table{width:100%;border-collapse:collapse;margin-bottom:24px}
+  .hours-table tr{border-bottom:1px solid var(--border)}
+  .hours-table tr:last-child{border-bottom:none}
+  .hours-table td{padding:12px 0;font-size:.94rem}
+  .hours-table td:first-child{font-weight:700;color:var(--cream);width:42%}
+  .hours-table td:last-child{color:var(--cream-dim)}
+  .hours-table tr.today td{color:var(--gold-light)}
+  .hours-table tr.today td:first-child{color:var(--gold-light)}
+
+  .contact-list{display:flex;flex-direction:column;gap:14px;margin-bottom:24px}
+  .contact-row{
+    display:flex;align-items:center;gap:14px;padding:16px 18px;
+    border-radius:var(--radius-sm);background:var(--card-bg);border:1px solid var(--border);
+    text-decoration:none;transition:border-color .2s ease, background .2s ease;
+  }
+  a.contact-row:hover{border-color:var(--gold);background:rgba(217,174,78,.06)}
+  .contact-row .icon{
+    width:40px;height:40px;border-radius:50%;background:rgba(139,63,214,.16);
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  }
+  .contact-row .icon svg{width:20px;height:20px;color:var(--purple-soft)}
+  .contact-row strong{display:block;font-size:.95rem;color:var(--cream)}
+  .contact-row span{font-size:.84rem;color:var(--cream-dim)}
+
+  .map-card{
+    aspect-ratio:4/3;border-radius:var(--radius-lg);border:1px dashed var(--border-strong);
+    background:linear-gradient(160deg,var(--bg-alt),var(--bg-alt-2));
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+    text-align:center;padding:32px;
+  }
+  .map-card svg{width:40px;height:40px;color:var(--gold)}
+  .map-card strong{font-family:var(--font-display);font-style:italic;font-size:1.2rem}
+  .map-card p{color:var(--cream-dim);font-size:.9rem;max-width:30ch}
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top:1px solid var(--border);
+    background:var(--bg-alt);
+    padding-block:48px 110px;
+  }
+  .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:32px;margin-bottom:32px}
+  @media (max-width:800px){.footer-grid{grid-template-columns:1fr;gap:28px}}
+  .footer-brand{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  footer h5{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--purple-soft);margin-bottom:14px;font-family:var(--font-body);font-weight:800}
+  footer p, footer address{color:var(--cream-dim);font-size:.88rem;font-style:normal;margin:0 0 8px}
+  footer ul li{margin-bottom:8px}
+  footer a{color:var(--cream-dim);text-decoration:none;font-size:.88rem}
+  footer a:hover{color:var(--gold-light)}
+  .footer-bottom{
+    border-top:1px solid var(--border);padding-top:22px;
+    display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;
+    font-size:.78rem;color:var(--cream-dim);
+  }
+
+  @media (max-width:800px){
+    footer{padding-bottom:120px}
+  }
+
+  /* ---------- Mobile sticky call bar ---------- */
+  .mobile-callbar{
+    display:none;position:fixed;left:0;right:0;bottom:0;z-index:90;
+    padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    background:rgba(11,7,18,.94);backdrop-filter:blur(12px);
+    border-top:1px solid var(--border);
+    gap:10px;
+  }
+  @media (max-width:800px){.mobile-callbar{display:flex}}
+  .mobile-callbar .btn{flex:1}
+
+  .visually-hidden{
+    position:absolute!important;width:1px;height:1px;overflow:hidden;
+    clip:rect(0 0 0 0);white-space:nowrap;
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container nav-row">
+    <a class="brand" href="#home" aria-label="ZAZA Lounge – Startseite">
+      <span class="brand-badge" aria-hidden="true">Z</span>
+      <span class="brand-word">ZAZA <em>Lounge</em><small>Fine Food · Hookah &amp; Drinks</small></span>
+    </a>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Hauptnavigation">
+      <a href="#speisekarte">Speisekarte</a>
+      <a href="#getraenke">Getränke &amp; Shisha</a>
+      <a href="#lieferung">Lieferung</a>
+      <a href="#kontakt">Öffnungszeiten &amp; Standort</a>
+      <a href="tel:+491706868210" class="btn btn-gold nav-mobile-cta">Jetzt anrufen</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+491706868210" class="btn btn-outline btn-sm btn-outline-desktop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0170 6868210
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Menü öffnen">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge-wrap">
+          <div class="zaza-emblem"><span>ZAZA</span></div>
+        </div>
+        <p class="hero-tagline">Fine Food – Hookah &amp; Drinks</p>
+        <h1>Türkische Küche, <em>Dry&nbsp;Aged</em> Burger &amp; Shisha in Köthen</h1>
+        <p class="hero-lede">Willkommen in der ZAZA Lounge – orientalisches Ambiente, ehrliches Essen und entspannte Shisha-Runden in der Dr.-Krause-Straße 57 in Köthen (Anhalt).</p>
+
+        <div class="hero-ctas">
+          <a href="tel:+491706868210" class="btn btn-gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Jetzt anrufen &amp; bestellen
+          </a>
+          <a href="#speisekarte" class="btn btn-outline">Speisekarte ansehen</a>
+        </div>
+
+        <div class="status-pill" id="statusPill" data-open="false" role="status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="statusText">Öffnungszeiten werden geladen …</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" role="img" aria-label="Platzhalter für Innen- oder Außenansicht der ZAZA Lounge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <strong>Foto folgt</strong>
+        <span>Innen-/Außenansicht der Lounge wird hier ergänzt</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="strip" aria-hidden="true">
+    <div class="strip-track">
+      <span>Fine Food</span><span>Hookah &amp; Drinks</span><span>Türkische Küche</span><span>Dry Aged Burger</span><span>Tacos</span><span>Shisha Lounge Köthen</span>
+      <span>Fine Food</span><span>Hookah &amp; Drinks</span><span>Türkische Küche</span><span>Dry Aged Burger</span><span>Tacos</span><span>Shisha Lounge Köthen</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="ueber">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Über uns</p>
+        <h2>Ein Ort zum Ankommen &amp; Genießen</h2>
+        <p class="about-copy">Die ZAZA Lounge verbindet türkische Küche mit modernen Klassikern wie Dry-Aged-Burgern und Tacos – dazu entspannte Shisha-Runden und Drinks in edlem, orientalisch inspiriertem Ambiente. Ob Frühstück am Sonntag, schnelles Mittagessen oder langer Abend mit Freunden: in der Dr.-Krause-Straße 57 in Köthen ist immer ein Tisch für dich frei.</p>
+      </div>
+      <div class="about-grid">
+        <div class="placeholder-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <strong>Foto folgt</strong>
+          <span>Innenansicht der Lounge</span>
+        </div>
+        <div class="placeholder-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <strong>Foto folgt</strong>
+          <span>Außenansicht &amp; Eingang</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPEISEKARTE -->
+  <section id="speisekarte">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Speisekarte</p>
+        <h2>Von Smash Burger bis Sac Tava</h2>
+        <p>Alle Burger aus 100&nbsp;% Dry Aged Beef ausgewählter deutscher Rinder – nur mit Salz gewürzt.</p>
+      </div>
+
+      <div class="tabs">
+        <div class="tablist" id="menuTablist" role="tablist" aria-label="Speisekarten-Kategorien">
+          <button class="tab-btn" role="tab" id="tab-burger" aria-controls="panel-burger" aria-selected="true" data-tab="burger">Burger</button>
+          <button class="tab-btn" role="tab" id="tab-tacos" aria-controls="panel-tacos" aria-selected="false" tabindex="-1" data-tab="tacos">Tacos</button>
+          <button class="tab-btn" role="tab" id="tab-koefte" aria-controls="panel-koefte" aria-selected="false" tabindex="-1" data-tab="koefte">Köfte &amp; Sac Tava</button>
+          <button class="tab-btn" role="tab" id="tab-fruehstueck" aria-controls="panel-fruehstueck" aria-selected="false" tabindex="-1" data-tab="fruehstueck">Frühstück</button>
+          <button class="tab-btn" role="tab" id="tab-snacks" aria-controls="panel-snacks" aria-selected="false" tabindex="-1" data-tab="snacks">Vorspeisen &amp; Snacks</button>
+        </div>
+      </div>
+
+      <!-- BURGER -->
+      <div class="menu-panel" id="panel-burger" role="tabpanel" aria-labelledby="tab-burger">
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Smash Burger</h4><p>2 Patties, Rindfleisch, Cheddar</p></div><div class="menu-item-price">12,00&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Zaza's Burger</h4><p>Rindfleisch, Pastrami, Cheddar, Eisbergsalat, Gewürzgurken, Tomate, Zwiebeln</p></div><div class="menu-item-price">11,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Sucuk Burger</h4><p>Sucuk, Spiegelei, Blattspinat, Paprika, Tomate, Cheddar</p></div><div class="menu-item-price">11,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Cheese Burger</h4><p>Rindfleisch, Gewürzgurken, Zwiebel, Cheddar</p></div><div class="menu-item-price">9,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Chicken Burger</h4><p>Hähnchenbrust, Eisbergsalat, Tomate, Zwiebeln</p></div><div class="menu-item-price">9,00&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Veggie Burger</h4><p>Halloumi, Falafel, Hummus, Eisbergsalat, Tomate, Zwiebel</p></div><div class="menu-item-price">8,50&nbsp;€</div></div>
+        </div>
+        <p class="menu-note">Menü-Option: + Pommes + Softdrink für 15,00&nbsp;€ gesamt · Käsesoße +1,00&nbsp;€</p>
+      </div>
+
+      <!-- TACOS -->
+      <div class="menu-panel" id="panel-tacos" role="tabpanel" aria-labelledby="tab-tacos" hidden>
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Zaza Taco</h4><p>Kalbfleisch, Pommes, Cheddar, gegrilltes Gemüse, Tomate, Zwiebel</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Hähnchen Taco</h4><p>Hähnchenbrust, Pommes, Cheddar, gegrilltes Gemüse, Tomate, Zwiebel</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Veggie Taco</h4><p>Halloumi, Falafel, Pommes, Cheddar, gegrilltes Gemüse, Tomate, Zwiebel</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Sucuk Taco</h4><p>Sucuk, Pommes, Cheddar, gegrilltes Gemüse, Tomate, Zwiebel</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Atom Taco</h4><p>Hähnchenbrust, Kalbfleisch, Sucuk, Pommes, Cheddar, gegrilltes Gemüse, Tomate, Zwiebel</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+        </div>
+        <p class="menu-note">Tacos nach türkischer Art – Soße nach Wahl · Käsesoße +1,00&nbsp;€</p>
+      </div>
+
+      <!-- KÖFTE & SAC TAVA -->
+      <div class="menu-panel" id="panel-koefte" role="tabpanel" aria-labelledby="tab-koefte" hidden>
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Köfte Teller</h4><p>Fleischbällchen, Salat, Brot, Zwiebeln, Beilage nach Wahl</p></div><div class="menu-item-price">15,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Köfte Dürüm</h4><p>Fleischbällchen, Tomate, Petersilie, Eisbergsalat, Zwiebeln, Soße nach Wahl</p></div><div class="menu-item-price">9,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Sac Tava</h4><p>Kalbfleisch oder Hähnchenbrust, Knoblauch, Paprika, Tomate, Butter, inkl. 1 Beilage (Pommes/Reis/Brot)</p></div><div class="menu-item-price">14,99&nbsp;€</div></div>
+        </div>
+        <p class="menu-note">Käsesoße +1,00&nbsp;€</p>
+      </div>
+
+      <!-- FRÜHSTÜCK -->
+      <div class="menu-panel" id="panel-fruehstueck" role="tabpanel" aria-labelledby="tab-fruehstueck" hidden>
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Sucuk mit Ei</h4></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Menemen</h4><p>Ei, Paprika, Tomate</p></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Frühstück für 2 Personen</h4><p>Sucuk mit Ei, Pommes, Halloumi, Brot, Gurke, Tomate, Oliven, Butter, Honig, Marmelade, Nutella, verschiedene Aufstriche</p></div><div class="menu-item-price">39,90&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Türkisches Frühstücksbuffet</h4><p>Sonn- &amp; feiertags, 9:00–14:00 Uhr</p></div><div class="menu-item-price">17,99&nbsp;€</div></div>
+        </div>
+        <p class="menu-note">Kostenlos dazu: Apfeltee, Schwarzer Tee, Orangentee</p>
+      </div>
+
+      <!-- VORSPEISEN & SNACKS -->
+      <div class="menu-panel" id="panel-snacks" role="tabpanel" aria-labelledby="tab-snacks" hidden>
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Mezze (Vorspeise)</h4><p>Ezme, Cacık, Hummus, Baba Ganoush, Kısır, Karottensalat</p></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Mozzarella Sticks</h4><p>6 Stück</p></div><div class="menu-item-price">7,00&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Chili-Cheese-Nuggets</h4><p>6 Stück</p></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Zwiebelringe</h4><p>8 Stück</p></div><div class="menu-item-price">5,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Pommes</h4><p>French Fries, Sweet Potato Fries oder Curly Fries</p></div><div class="menu-item-price">5,00&nbsp;€</div></div>
+        </div>
+        <p class="subheading">Tagessuppen · je 6,50&nbsp;€</p>
+        <div class="menu-grid">
+          <div class="menu-item"><div class="menu-item-body"><h4>Knoblauchsuppe</h4></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Linsensuppe</h4></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Nudelsuppe</h4></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+          <div class="menu-item"><div class="menu-item-body"><h4>Okrasuppe</h4></div><div class="menu-item-price">6,50&nbsp;€</div></div>
+        </div>
+        <p class="menu-note">Soßen zur Auswahl: Barbequesoße, Hamburgersoße, Yuppiesoße, Chilisoße, Ketchup, Mayo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GETRÄNKE & SHISHA -->
+  <section id="getraenke">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Getränke</p>
+        <h2>Drinks, Kaffee &amp; Shisha</h2>
+      </div>
+
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <h3>Softdrinks &amp; Bier</h3>
+          <ul class="drink-list">
+            <li><span>Wasser</span><span>2,50&nbsp;€</span></li>
+            <li><span>Eistee / Cola / Fanta / Sprite</span><span>3,00&nbsp;€</span></li>
+            <li><span>Fruchtsäfte</span><span>3,50&nbsp;€</span></li>
+            <li><span>Schweppes</span><span>3,00&nbsp;€</span></li>
+            <li><span>Red Bull / Monster</span><span>3,50&nbsp;€</span></li>
+            <li><span>Bier</span><span>4,50&nbsp;€</span></li>
+            <li><span>Heineken</span><span>4,50&nbsp;€</span></li>
+            <li><span>MiXery-Bier</span><span>4,50&nbsp;€</span></li>
+          </ul>
+        </div>
+
+        <div class="drink-card">
+          <h3>Alkoholisch</h3>
+          <ul class="drink-list">
+            <li><span>Bacardi Cola</span><span>5,00&nbsp;€</span></li>
+            <li><span>Wodka Sauerkirsch</span><span>7,00&nbsp;€</span></li>
+            <li><span>Raki</span><span>5,00&nbsp;€</span></li>
+            <li><span>Corona</span><span>5,00&nbsp;€</span></li>
+            <li><span>Desperados</span><span>5,00&nbsp;€</span></li>
+            <li><span>Schnaps</span><span>2,50&nbsp;€</span></li>
+            <li><span>Whiskey Cola / Energy</span><span>5,00&nbsp;€</span></li>
+            <li><span>Cocktails</span><span>8,00&nbsp;€</span></li>
+          </ul>
+        </div>
+
+        <div class="drink-card">
+          <h3>Heißgetränke</h3>
+          <ul class="drink-list">
+            <li><span>Tee</span><span>2,00&nbsp;€</span></li>
+            <li><span>Kaffee</span><span>2,50&nbsp;€</span></li>
+            <li><span>Espresso</span><span>3,00&nbsp;€</span></li>
+            <li><span>Latte Macchiato</span><span>4,50&nbsp;€</span></li>
+            <li><span>Cappuccino</span><span>3,50&nbsp;€</span></li>
+            <li><span>Heiße Schokolade</span><span>3,50&nbsp;€</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="menu-note" style="max-width:640px">Cocktails: Pina Colada, Mai Tai, Swimming Pool, Sex on the Beach.</p>
+
+      <div class="shisha-panel">
+        <div>
+          <p class="shisha-tagline">Rauch. Geschmack. Entspannung.</p>
+          <h3>Genieße den Moment.</h3>
+          <p class="shisha-price">16,00&nbsp;€ <small>pro Shisha</small></p>
+          <p style="color:var(--cream-dim);max-width:48ch">Ausgewählte Sorten für jeden Geschmack – von fruchtig-süß bis kühlend-frisch.</p>
+        </div>
+        <div class="flavor-chips">
+          <span class="flavor-chip">LOVE66</span>
+          <span class="flavor-chip">Sommer in Beirut</span>
+          <span class="flavor-chip">Traube Minze</span>
+          <span class="flavor-chip">Ice Kaktus</span>
+          <span class="flavor-chip">Wassermelone</span>
+          <span class="flavor-chip">Doppelapfel Minze</span>
+          <span class="flavor-chip">und viele weitere</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDENT OFFERS -->
+  <section id="angebote">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Für Schüler &amp; Studenten</p>
+        <h2>Special-Angebote mit Ausweis</h2>
+        <p>Einfach bei der Bestellung den Schüler- oder Studentenausweis zeigen.</p>
+      </div>
+      <div class="student-grid">
+        <div class="student-card">
+          <h4>Cheeseburger-Menü</h4>
+          <p class="student-price">9,90&nbsp;€</p>
+          <p>Cheeseburger + Pommes + Softgetränk + Eis am Stiel · je nach Verfügbarkeit</p>
+        </div>
+        <div class="student-card">
+          <h4>Köfte &amp; Taco Special</h4>
+          <p class="student-price">7,90&nbsp;€</p>
+          <p>Nur mit Schüler- oder Studentenausweis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERY -->
+  <section id="lieferung">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Lieferung &amp; Abholung</p>
+        <h2>Bequem bestellen</h2>
+      </div>
+      <div class="delivery-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+          <h3>Lieferung in ganz Köthen</h3>
+          <p>Ab 15,00&nbsp;€ Bestellwert kostenlos, darunter auf Anfrage. Bestellung immer telefonisch.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div>
+          <h3>Vorbestellen &amp; Abholen</h3>
+          <p>Alle Speisen können telefonisch vorbestellt und direkt in der Lounge abgeholt werden.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <h3>Telefonisch bestellen</h3>
+          <p>Ruf uns direkt an: <a href="tel:+491706868210" style="color:var(--gold-light);font-weight:700">0170&nbsp;6868210</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / HOURS / MAP -->
+  <section id="kontakt">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Öffnungszeiten &amp; Standort</p>
+        <h2>So findest du uns</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <table class="hours-table" id="hoursTable">
+            <tbody>
+              <tr data-day="1"><td>Montag</td><td>17:00–00:00</td></tr>
+              <tr data-day="2"><td>Dienstag</td><td>11:00–14:00 &amp; 17:00–00:00</td></tr>
+              <tr data-day="3"><td>Mittwoch</td><td>11:00–14:00 &amp; 17:00–00:00</td></tr>
+              <tr data-day="4"><td>Donnerstag</td><td>11:00–14:00 &amp; 17:00–00:00</td></tr>
+              <tr data-day="5"><td>Freitag</td><td>11:00–14:00 &amp; 17:00–02:00</td></tr>
+              <tr data-day="6"><td>Samstag</td><td>11:00–14:00 &amp; 17:00–02:00</td></tr>
+              <tr data-day="0"><td>Sonntag</td><td>9:00–14:00 Buffet &amp; 17:20–00:00</td></tr>
+            </tbody>
+          </table>
+
+          <div class="contact-list">
+            <a class="contact-row" href="tel:+491706868210">
+              <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <span><strong>0170 6868210</strong><span>Anrufen &amp; bestellen</span></span>
+            </a>
+            <a class="contact-row" href="https://www.google.com/maps/dir/?api=1&destination=Dr.-Krause-Stra%C3%9Fe%2057%2C%2006366%20K%C3%B6then%20(Anhalt)" target="_blank" rel="noopener">
+              <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <span><strong>Dr.-Krause-Straße 57, 06366 Köthen (Anhalt)</strong><span>Route in Google Maps öffnen</span></span>
+            </a>
+            <a class="contact-row" href="https://instagram.com/zaza.lounge.koethen" target="_blank" rel="noopener">
+              <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37a4 4 0 1 1-7.914 1.174A4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span>
+              <span><strong>@zaza.lounge.koethen</strong><span>Auf Instagram folgen</span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-card" role="img" aria-label="Platzhalter für eine Kartenansicht der ZAZA Lounge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <strong>Dr.-Krause-Straße 57</strong>
+          <p>06366 Köthen (Anhalt)</p>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Dr.-Krause-Stra%C3%9Fe%2057%2C%2006366%20K%C3%B6then%20(Anhalt)" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Route planen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-badge" aria-hidden="true" style="width:38px;height:38px;font-size:.85rem">Z</span>
+          <span class="brand-word" style="font-size:1rem">ZAZA <em>Lounge</em></span>
+        </div>
+        <p>Fine Food – Hookah &amp; Drinks. Türkische Küche, Burger &amp; Tacos in Köthen (Anhalt).</p>
+        <a href="https://instagram.com/zaza.lounge.koethen" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-top:6px">Instagram</a>
+      </div>
+
+      <div>
+        <h5>Kontakt</h5>
+        <address>
+          <a href="tel:+491706868210">0170 6868210</a><br>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Dr.-Krause-Stra%C3%9Fe%2057%2C%2006366%20K%C3%B6then%20(Anhalt)" target="_blank" rel="noopener">Dr.-Krause-Straße 57<br>06366 Köthen (Anhalt)</a>
+        </address>
+      </div>
+
+      <div>
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="#speisekarte">Speisekarte</a></li>
+          <li><a href="#getraenke">Getränke &amp; Shisha</a></li>
+          <li><a href="#lieferung">Lieferung &amp; Abholung</a></li>
+          <li><a href="#kontakt">Öffnungszeiten &amp; Standort</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>Verantwortlich für den Inhalt: Zarif Güneş, Dr.-Krause-Straße 57, 06366 Köthen (Anhalt)</span>
+      <span>© <span id="year"></span> ZAZA Lounge</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile sticky call bar -->
+<div class="mobile-callbar" aria-hidden="false">
+  <a href="tel:+491706868210" class="btn btn-gold btn-sm">Anrufen</a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=Dr.-Krause-Stra%C3%9Fe%2057%2C%2006366%20K%C3%B6then%20(Anhalt)" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Route</a>
+  <a href="https://instagram.com/zaza.lounge.koethen" target="_blank" rel="noopener" class="btn btn-purple btn-sm">Instagram</a>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Header scroll shadow */
+  var header = document.getElementById('siteHeader');
+  var onScroll = function(){
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+  };
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* Mobile nav toggle */
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('primaryNav');
+  function closeNav(){
+    nav.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Menü öffnen');
+  }
+  function openNav(){
+    nav.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.setAttribute('aria-label', 'Menü schließen');
+  }
+  toggle.addEventListener('click', function(){
+    var isOpen = nav.classList.contains('is-open');
+    if (isOpen) { closeNav(); } else { openNav(); }
+  });
+  nav.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', closeNav);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') closeNav();
+  });
+
+  /* Accessible tabs (Speisekarte) */
+  var tablist = document.getElementById('menuTablist');
+  var tabs = Array.prototype.slice.call(tablist.querySelectorAll('[role="tab"]'));
+  var panels = tabs.map(function(t){ return document.getElementById(t.getAttribute('aria-controls')); });
+
+  function activateTab(tab, focus){
+    tabs.forEach(function(t, i){
+      var selected = t === tab;
+      t.setAttribute('aria-selected', selected ? 'true' : 'false');
+      t.tabIndex = selected ? 0 : -1;
+      panels[i].hidden = !selected;
+    });
+    if (focus) tab.focus();
+  }
+
+  tabs.forEach(function(tab, i){
+    tab.addEventListener('click', function(){ activateTab(tab, false); });
+    tab.addEventListener('keydown', function(e){
+      var idx = tabs.indexOf(tab);
+      var next = null;
+      if (e.key === 'ArrowRight') next = tabs[(idx + 1) % tabs.length];
+      else if (e.key === 'ArrowLeft') next = tabs[(idx - 1 + tabs.length) % tabs.length];
+      else if (e.key === 'Home') next = tabs[0];
+      else if (e.key === 'End') next = tabs[tabs.length - 1];
+      if (next) { e.preventDefault(); activateTab(next, true); }
+    });
+  });
+
+  /* Opening hours: schedule per weekday (0=Sun .. 6=Sat), minutes since 00:00, end may exceed 1440 (overnight) */
+  var schedule = {
+    0: [[9*60, 14*60], [17*60 + 20, 24*60]],
+    1: [[17*60, 24*60]],
+    2: [[11*60, 14*60], [17*60, 24*60]],
+    3: [[11*60, 14*60], [17*60, 24*60]],
+    4: [[11*60, 14*60], [17*60, 24*60]],
+    5: [[11*60, 14*60], [17*60, 26*60]],
+    6: [[11*60, 14*60], [17*60, 26*60]]
+  };
+  var dayNames = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
+
+  function pad(n){ return n < 10 ? '0' + n : '' + n; }
+  function fmt(min){
+    var m = ((min % 1440) + 1440) % 1440;
+    return pad(Math.floor(m / 60)) + ':' + pad(m % 60);
+  }
+
+  function buildIntervals(){
+    var out = [];
+    for (var w = 0; w < 2; w++) {
+      for (var d = 0; d < 7; d++) {
+        schedule[d].forEach(function(range){
+          out.push({ start: w*7*1440 + d*1440 + range[0], end: w*7*1440 + d*1440 + range[1] });
+        });
+      }
+    }
+    return out;
+  }
+
+  function updateStatus(){
+    var now = new Date();
+    var day = now.getDay();
+    var minutes = now.getHours() * 60 + now.getMinutes();
+    var nowAbs = day * 1440 + minutes;
+    var intervals = buildIntervals();
+
+    var openIv = null;
+    for (var i = 0; i < intervals.length; i++) {
+      if (nowAbs >= intervals[i].start && nowAbs < intervals[i].end) { openIv = intervals[i]; break; }
+    }
+
+    var pill = document.getElementById('statusPill');
+    var text = document.getElementById('statusText');
+
+    if (openIv) {
+      pill.setAttribute('data-open', 'true');
+      text.textContent = 'Jetzt geöffnet · schließt um ' + fmt(openIv.end) + ' Uhr';
+    } else {
+      var next = null;
+      for (var j = 0; j < intervals.length; j++) {
+        if (intervals[j].start > nowAbs && (!next || intervals[j].start < next.start)) next = intervals[j];
+      }
+      pill.setAttribute('data-open', 'false');
+      if (next) {
+        var nextDayIdx = Math.floor(next.start / 1440) % 7;
+        var sameDay = nextDayIdx === day && next.start - day*1440 < 1440;
+        text.textContent = 'Aktuell geschlossen · öffnet ' + (sameDay ? 'heute' : dayNames[nextDayIdx]) + ' um ' + fmt(next.start) + ' Uhr';
+      } else {
+        text.textContent = 'Aktuell geschlossen';
+      }
+    }
+
+    var rows = document.querySelectorAll('#hoursTable tr');
+    rows.forEach(function(row){
+      row.classList.toggle('today', parseInt(row.getAttribute('data-day'), 10) === day);
+    });
+  }
+
+  updateStatus();
+  setInterval(updateStatus, 60000);
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
