@@ -2,7 +2,7 @@
 
 Website der ZAZA Lounge, Dr.-Krause-Straße 57, 06366 Köthen (Anhalt).
 
-Live: https://friedbybane.github.io/Bane/
+Live: https://zaza-lounge.de
 
 ## Aufbau
 
